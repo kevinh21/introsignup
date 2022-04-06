@@ -7,7 +7,16 @@
   /* z-index: -4; */
 }
 
-@viewport {
+/* @viewport {
   width: device-width;
   zoom: 1;
+} */
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
 }
