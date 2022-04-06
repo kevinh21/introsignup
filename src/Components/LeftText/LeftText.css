@@ -1,0 +1,21 @@
+.leftWrapper {
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 16%;
+  margin-left: 10%;
+  width: 40%;
+  text-align: left;
+  vertical-align: middle;
+}
+.learn {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 24px;
+  line-height: 32px;
+}
+
+.see {
+  font: weight 100px;
+  text-align: left;
+  font-size: 12px;
+}
