@@ -9,8 +9,16 @@ function SignupForm() {
         <div id="then">then $20/mo. thereafter</div>
       </div>
       <form>
-        <input type="text" placeholder="First Name" />
-        <input type="text" placeholder="Last Name" />
+        <input
+          type="text"
+          required="First Name cannot be empty"
+          placeholder="First Name"
+        />
+        <input
+          type="text"
+          required="Last Name cannot be empty"
+          placeholder="Last Name"
+        />
         <input type="email" placeholder="Email Address" />
         <input type="password" placeholder="Password" />
         <button type="submit">CLAIM YOUR FREE TRIAL</button>
