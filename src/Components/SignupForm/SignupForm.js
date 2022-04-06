@@ -16,8 +16,10 @@ function SignupForm() {
         <button type="submit">CLAIM YOUR FREE TRIAL</button>
       </form>
       <div className="foot">
-        {" "}
-        By clicking the button, you are agreeing to our Terms and Services
+        By clicking the button, you are agreeing to our{" "}
+        <a id="terms" href="https://www.w3schools.com">
+          Terms and Services
+        </a>
       </div>
     </div>
   );
