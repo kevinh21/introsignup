@@ -56,6 +56,9 @@ input:first-child {
   margin-top: 32px;
 }
 
+input:required {
+}
+
 button {
   font-size: 10px;
   background-color: rgb(72, 197, 128);
